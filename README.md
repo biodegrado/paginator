@@ -1,0 +1,2 @@
+# paginator
+dynamic-react-paginator
