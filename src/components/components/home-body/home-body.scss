@@ -1,0 +1,35 @@
+.homeBody{
+    background-color: aqua;
+    height: 800px;
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+    }
+    
+    .apple {
+        width:6em;
+        height:5em;
+        background-color:  #ff4355;
+        box-shadow: inset 0.2em -0.2em  #cc1022;
+        border-radius: 2em 2em 3em 3em;
+        position:absolute;
+        top: 20em;
+        right: 35em;
+      }
+
+      .apple::after{
+        content:"";
+        width: 0.2em;
+        height: 1em;
+        background-color:brown;
+        position:absolute;
+        z-index: 2;
+        top: -0.5em;
+        left: 3em;
+      }
+}

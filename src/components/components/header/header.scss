@@ -1,0 +1,23 @@
+.header {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .link-root{
+      display: flex;
+      column-gap: 30px;
+      list-style-type: none;
+    }
+    
+    a{
+      text-decoration: none;
+      color: white;
+
+    }
+      
+}
+
+

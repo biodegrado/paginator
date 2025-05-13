@@ -1,0 +1,51 @@
+.paginator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    button {
+      padding: 8px 12px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  
+    #recap-page {
+      .input-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+  
+        .page-label {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          
+          label {
+            font-weight: bold;
+          }
+  
+          .page-input {
+            width: 50px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+        }
+      }
+  
+      .error-message {
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+    }
+  }
